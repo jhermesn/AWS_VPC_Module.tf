@@ -92,7 +92,7 @@ This Terraform module creates a highly customizable Virtual Private Cloud (VPC) 
 ## Usage
 ```terraform
 module "dev_vpc" {
-  source = "https://github.com/jhermesn/AWS_VPC_Module.tf"
+  source = "github.com/jhermesn/AWS_VPC_Module.tf"
 
   name       = "dev-vpc"
   cidr_block = "10.0.0.0/16"
